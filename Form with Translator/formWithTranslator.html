@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Login</h1>
+        <form>
+
+            <div class="form_row">
+            <label for="NA" class="order">Name</label>
+            <input type="text" id="NA" placeholder="Enter the name"/>
+            </div>
+
+            <div class="form_row">
+            <label for="num"  class="order">Number</label>
+            <input type="number" id="num" placeholder="Enter the number"/>
+            </div>
+
+            <div class="form_row">
+            <label for="em"  class="order">Email</label>
+            <input type="email" id="em" placeholder="Enter the email"/>
+            </div>
+            <button type="submit">Login</button>
+
+        </form>
+       
+    </div>
+
+     <div id="demo"></div>
+
+</body>
+
+ <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> <!--from cb (call back function) its ois used as a if function it only returns the language translator function(function googleTranslateElementInit()) if the statement is true-->
+
+<script>
+    function googleTranslateElementInit(){
+        new google.translate.TranslateElement({pagelanguage:'en'},'demo');
+    }
+</script>
+
+</html>
